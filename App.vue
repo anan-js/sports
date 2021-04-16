@@ -2,6 +2,9 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+      // #ifdef MP-WEIXIN
+      console.log(uni.getSystemInfoSync())
+      // #endif
 		},
 		onShow: function() {
 			console.log('App Show')
