@@ -4,6 +4,8 @@
 	    "path" : "pages/home/home",
 	    "style" :                                                                                    
 	    {
+        "navigationBarTextStyle": "black",
+        "navigationStyle":"custom",
 	        "enablePullDownRefresh": false
 	    }
 	    
@@ -19,14 +21,16 @@
             "path" : "pages/home/study",
             "style" :                                                                                    
             {
+                "navigationBarTitleText":"培训",
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
             "path" : "pages/home/loc",
-            "style" :                                                                                    
+            "style" :                                                                                     
             {
+              "navigationBarTitleText":"场馆",
                 "enablePullDownRefresh": false
             }
             
@@ -35,6 +39,7 @@
             "path" : "pages/home/user",
             "style" :                                                                                    
             {
+              "navigationBarTitleText":"我的",
                 "enablePullDownRefresh": false
             }
             
@@ -43,6 +48,7 @@
             "path" : "pages/home/teacher",
             "style" :                                                                                    
             {
+              "navigationBarTitleText":"约教练",
                 "enablePullDownRefresh": false
             }
             
@@ -53,7 +59,8 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
-    "navigationStyle":"custom"
+    "navigationBarBackgroundColor":"#ff9800",
+    "navigationBarTextStyle":"white"
 	},
   "tabBar":{
     "color":"#8F8F94",
